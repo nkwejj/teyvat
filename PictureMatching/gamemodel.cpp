@@ -33,7 +33,7 @@ void gamemodel::startgame()
     for (int i = 0; i < 4; i++)
         hintArray[i] = -1;
 
-    gameStatus=PLAYING;
+    gameStatus = PLAYING;
 
     int gamelevelnum = kBasicNum;
 
