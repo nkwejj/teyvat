@@ -17,7 +17,7 @@ enum GameStatus
     OVER
 };
 //方块数
-const int kBasicNum=MAX_ROW*MAX_COL;
+const int kBasicNum=MAX_ROW*MAX_COL*0.3；
 
 
 enum GameLevel
