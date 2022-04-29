@@ -1,7 +1,0 @@
-<RCC>
-    <qresource prefix="/images">
-        <file>image/gate.jpg</file>
-        <file>image/beginbtn.png</file>
-        <file>image/backbtn.png</file>
-    </qresource>
-</RCC>
