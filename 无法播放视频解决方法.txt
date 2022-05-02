@@ -1,0 +1,6 @@
+
+
+若有无法正常播放视频（报错“DirectShowPlayerService::doRender: Unresolved error code 0x80040266”），可下载安装一个解码器，比如：K-Lite_Codec_Pack_1370_Standard，安装一路默认即可，安装完后，再重新构建工程即可正常播放
+
+百度网盘链接：https://pan.baidu.com/s/1umetstHCT9Q0EPl_qdZ7YQ
+提取码：1234
