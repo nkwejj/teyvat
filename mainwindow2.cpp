@@ -250,7 +250,7 @@ void MainWindow2::initGame2()
 
     battlebgm2 = new QMediaPlayer;
     battlebgm2->setMedia(QUrl("qrc:/res/media/battlebg.mp3"));
-    battlebgm2->setVolume(40);
+    battlebgm2->setVolume(35);
     battlebgm2->play();
 
 
@@ -308,6 +308,7 @@ void MainWindow2::videoplay2()
     widget2->setLayout(layout2);
 
     video2->setMedia(QUrl("qrc:/res/media/gold.mp4"));
+    video2->setVolume(35);
 
     video2->setVideoOutput(videowidget2);
 
