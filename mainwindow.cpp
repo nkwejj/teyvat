@@ -252,7 +252,7 @@ void MainWindow::initGame()
 
     battlebgm = new QMediaPlayer;
     battlebgm->setMedia(QUrl("qrc:/res/media/battlebg.mp3"));
-    battlebgm->setVolume(40);
+    battlebgm->setVolume(35);
     battlebgm->play();
 
     //添加button
@@ -309,6 +309,7 @@ void MainWindow::videoplay1()
     widget1->setLayout(layout1);
 
     video1->setMedia(QUrl("qrc:/res/media/gold.mp4"));
+    video1->setVolume(35);
 
     video1->setVideoOutput(videowidget1);
 
