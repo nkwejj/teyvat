@@ -7,6 +7,7 @@
 #include <QGraphicsScene>//场景
 
 #include <QMediaPlayer>
+#include<QMediaPlaylist>
 
 #include<QTime>
 
@@ -28,6 +29,7 @@ protected:
     QGraphicsScene mGameBeginScence;
 
     QMediaPlayer *mediaplayer;
+    QMediaPlaylist *mediaplayerlist;
 
     QTime current_time = QTime::currentTime();
     int hour = current_time.hour(); //时
