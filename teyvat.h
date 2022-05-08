@@ -48,6 +48,7 @@ private:
     void initGame();//初始化游戏
 
     QMediaPlayer *battlebgm;
+    QMediaPlaylist *battlebgmlist;
 
 protected:
     QVideoWidget *videowidget1;
