@@ -22,7 +22,11 @@ login::login(QWidget *parent) :
 void login::start(){
 
     mediaplayer = new QMediaPlayer(this);
-    mediaplayer->setMedia(QUrl("qrc:/res/media/loginbg.mp3"));
+    mediaplayerlist = new QMediaPlaylist;
+    mediaplayerlist->addMedia(QUrl("qrc:/res/media/loginbg.mp3"));
+    mediaplayerlist->addMedia(QUrl("qrc:/res/media/loginbg.mp3"));
+    mediaplayerlist->addMedia(QUrl("qrc:/res/media/loginbg.mp3"));
+    mediaplayer->setPlaylist(mediaplayerlist);
     mediaplayer->play();
 
     mGameView.setParent(this);
