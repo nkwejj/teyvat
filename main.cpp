@@ -1,6 +1,5 @@
 #include "teyvat.h"
 #include"login.h"
-#include"mainwindow.h"
 #include"levelchoose.h"
 #include <QApplication>
 
