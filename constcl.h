@@ -78,6 +78,8 @@ class constcl
 {
 public:
     constcl();
+
+    static int gamelevelnum;
 };
 
 #endif // CONSTCL_H
