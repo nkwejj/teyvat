@@ -252,7 +252,11 @@ void Teyvat::initGame()
     game->startgame();
 
     battlebgm = new QMediaPlayer;
-    battlebgm->setMedia(QUrl("qrc:/res/media/battlebg.mp3"));
+    battlebgmlist = new QMediaPlaylist;
+    battlebgmlist->addMedia(QUrl("qrc:/res/media/battlebg.mp3"));
+    battlebgmlist->addMedia(QUrl("qrc:/res/media/battlebg.mp3"));
+    battlebgmlist->addMedia(QUrl("qrc:/res/media/battlebg.mp3"));
+    battlebgm->setPlaylist(battlebgmlist);
     battlebgm->setVolume(35);
     battlebgm->play();
 
